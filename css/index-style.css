@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0px;
+}
+body{
+        background-color: #f1edea;
+}
+/*start navbar*/
+.navbar{
+    padding:25px;
+    font-family: josefin sans,sans-serif;
+}
+.navbar ul{
+    margin: auto;
+}
+.navbar ul li {
+    margin: 15px;
+}
+.navbar ul li a{
+        text-transform: uppercase;
+        font-size: 16px;
+        padding: 2px ;
+
+}
+.navbar ul li a:hover{
+    text-decoration:underline;
+}
+/*end navbar*/
+
+
+/*start slider*/
+.slider {
+    width: 90%;
+    margin:auto;
+}
+.slider-cap {
+    position: relative;
+    
+}
+.slider-logo {
+    position: absolute;
+    top:180px;
+    left: 150px;
+    z-index: 1;
+}
+.slider-cap .carousel-caption {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    text-align:left; 
+}
+.slider-cap .carousel-caption h1{
+    font-size: 48px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.slider-cap .carousel-caption p{
+    font-size: 18px;
+    line-height: 25px;
+    width: 390px;
+}
+/*end slider*/
+/*start logos se*/
+.logos-sec{
+    padding: 40px 0;
+    margin: 50px 0;
+}
+.logos-sec img{
+    transition: opacity 0.5s;
+}
+.logos-sec img:hover {
+    opacity: 0.3;
+}
+/*end logos sec*/
+/*start cards*/
+
+
+.cards .row {
+    width: 1450px;
+    margin: auto;
+}
+.cards .row .card-1 {
+    width: 24%;
+    overflow: hidden;
+    margin: 20px 0px;
+}
+.cards .card-1 img{
+    width: 100%;
+}
+.card-cap{
+    padding:45px 20px 30px;
+    width: 100%;
+    background-color: #FFF;
+    overflow: hidden;
+    position: relative;
+}
+.card-cap a{
+    display: block;
+    position: absolute;
+    top:80px;
+    left: 25px;
+    text-decoration: none;
+    color: #555;
+}
+
+.card-cap span{
+    margin: 0px 5px;
+    text-decoration: line-through;   
+}
+
+.card-1:hover .product-salary{
+    opacity: 1;
+
+}
+.product-salary{
+
+    font-family:'EB Garamond',sans-serif;
+     opacity: 0;
+}
+.saels-bac {
+   margin: 20px 0px ;
+}
+.caption {
+    margin: 120px 20px;
+}
+.caption .par-2{
+    width: 250px;
+    color: #888;
+    font-family:'EB Garamond',sans-serif; 
+}
+.caption .par-1{
+    font-size: 17px;
+    font-family:sans-serif;
+    color: #888;
+    font-style: italic;
+}
+.caption h2{
+    letter-spacing: 5px;
+    font-size: 28px;
+    color: #444
+}
+.caption a{
+    color:#000;
+    text-decoration: none;
+    
+}
+.caption a:hover{
+    border-bottom: 1px solid #000;
+}
+/*end sales*/
+/*start follow us*/
+.follow-cap {
+    text-align: center;
+}
+.follow-cap p{
+    color: #868686;
+    font-size: 16px;
+}
+
+.follow-cap a{
+    text-decoration: none;
+    color:#000;
+    padding: 15px 30px;
+    border: 1px solid #222;
+    font-family: josefin sans,sans-serif;
+}
+.follow-link{
+    margin: 35px;
+}
+.follow-cap .follow-link a:hover{
+    color: #fff;
+    background-color: #222;
+}
+/*end follow us*/
+/*start product imgs */
+.product-img-padd{
+    margin: auto;
+}
+.produc-imgs ul{
+    list-style: none;
+    margin-left: 70px;
+    
+}
+.produc-imgs ul li {
+    float: left;
+    overflow: hidden;
+    
+}
+.produc-imgs ul li img {
+    transition:all 1s;
+    width:100%;
+}
+.produc-imgs ul li img:hover{
+    transform: scale(1.1,1.1);
+}
+/*end product imgs*/
+/*start footer*/
+.foter-cap{
+     padding-top: 30px; 
+    margin-left: 70px;
+    border-bottom:1px dotted #222;
+    overflow: hidden;
+}
+.foter-cap ul {
+    list-style: none;
+}
+.foter-cap p{
+    width: 90%;
+    margin-top: 10px; 
+}
+.foter-cap ul li{
+    padding: 3px;
+}
+.foter-cap ul li a{
+    color: #222;
+    text-decoration: none;
+}
+.foter-cap .message{
+    width: 80%;
+    border-bottom: 1px solid #333;
+}
+.foter-cap .message input{
+    border:0;
+    background: transparent;
+}
+.foter-cap .message span a {
+    color: #222;
+    text-decoration: none;
+}
+.foter-icons{
+    list-style: none;
+    overflow: hidden;
+    margin: 20px 25%;
+}
+.foter-icons  li{
+    float: left;
+}
+/*end footer*/
+ /*start foter bottum*/
+ .foter-bottum {
+    padding: 50px 10px;
+
+ }
+ .foter-bottum .copiright{
+    float: left;
+ }
+ .foter-bottum .fot-img{
+    float: right;
+ }
+ /*end foter bottum*/
